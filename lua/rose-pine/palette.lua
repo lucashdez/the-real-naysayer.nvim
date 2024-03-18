@@ -1,7 +1,6 @@
 local options = require("rose-pine.config").options
 local variants = {
 	main = {
-		-- #bdb395
 		_nc = "#16141f",
 		base = "#191724",
 		surface = "#1f1d2e",
@@ -12,7 +11,7 @@ local variants = {
 		love = "#eb6f92",
 		gold = "#f6c177",
 		rose = "#86E08F",
-		pine = "#bdb395", --
+		pine = "#e0def4",
 		foam = "#9ccfd8",
 		iris = "#c4a7e7",
 		highlight_low = "#21202e",
