@@ -894,6 +894,7 @@ local function set_highlights()
     vim.cmd("highlight LineNr guifg=#bdb395")
     vim.cmd("highlight Nontext guifg=#bdb395")
     vim.cmd("highlight Visual guifg=#333333 guibg=#82aaa3")
+    vim.cmd("highlight Background guibg=#0a0a0a")
 end
 
 ---@param variant Variant | nil
