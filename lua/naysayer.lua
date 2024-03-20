@@ -1,9 +1,9 @@
 local M = {}
-local config = require("rose-pine.config")
+local config = require("naysayer.config")
 
 local function set_highlights()
-	local utilities = require("rose-pine.utilities")
-	local palette = require("rose-pine.palette")
+	local utilities = require("naysayer.utilities")
+	local palette = require("naysayer.palette")
 	local styles = config.options.styles
 
 	local groups = {}
@@ -897,7 +897,7 @@ function M.colorscheme(variant)
 		vim.cmd("hi clear")
 		vim.cmd("syntax reset")
 	end
-	vim.g.colors_name = "rose-pine"
+	vim.g.colors_name = "naysayer"
 
 	set_highlights()
 end
