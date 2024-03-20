@@ -886,6 +886,14 @@ local function set_highlights()
 			\|else|setlocal winhighlight=|endif
 		]])
 	end
+     
+    vim.cmd("highlight ColorColumn guibg=NONE")
+    vim.cmd("highlight Comment guifg=#31B72C")
+    vim.cmd("highlight StatusLine guibg=#B59E7A")
+    vim.cmd("highlight StatusLine guifg=#000000")
+    vim.cmd("highlight LineNr guifg=#bdb395")
+    vim.cmd("highlight Nontext guifg=#bdb395")
+    vim.cmd("highlight Visual guifg=#333333 guibg=#82aaa3")
 end
 
 ---@param variant Variant | nil
@@ -900,13 +908,6 @@ function M.colorscheme(variant)
 	vim.g.colors_name = "naysayer"
 
 	set_highlights()
-    vim.cmd("highlight ColorColumn guibg=NONE")
-    vim.cmd("highlight Comment guifg=#31B72C")
-    vim.cmd("highlight StatusLine guibg=#B59E7A")
-    vim.cmd("highlight StatusLine guifg=#000000")
-    vim.cmd("highlight LineNr guifg=#bdb395")
-    vim.cmd("highlight Nontext guifg=#bdb395")
-    vim.cmd("highlight Visual guifg=#333333 guibg=#82aaa3")
 end
 
 ---@param options Options
