@@ -1,6 +1,11 @@
 # naysayer88 theme
 
+## Using `packer`
+```lua
+use ({'alljokecake/naysayer-theme.nvim', as = 'naysayer'})
 ```
+## Setup
+```lua
 require('naysayer').setup({
 	variant = 'main',
 	dark_variant = 'main',
