@@ -1,4 +1,7 @@
 # naysayer88 theme
+<h1>
+    <img src="assets/screenshot.png"/>
+</h1>
 
 ## Using `packer`
 ```lua
