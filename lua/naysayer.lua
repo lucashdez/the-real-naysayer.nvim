@@ -81,7 +81,7 @@ local function set_highlights()
 		ColorColumn = { bg = palette.surface },
 		Conceal = { bg = "NONE" },
 		CurSearch = { fg = palette.base, bg = palette.gold },
-		Cursor = { fg = palette.text, bg = palette.highlight_high },
+		Cursor = { fg = palette.text, bg = "#8DEE90" },
 		CursorColumn = { bg = palette.overlay },
 		-- CursorIM = {},
 		CursorLine = { bg = palette.overlay },
@@ -143,7 +143,7 @@ local function set_highlights()
 		TabLineSel = { fg = palette.text, bg = palette.overlay, bold = styles.bold },
 		Title = { fg = palette.foam, bold = styles.bold },
 		VertSplit = { fg = groups.border },
-		Visual = { bg = palette.highlight_med },
+		Visual = { bg = "#0000ff" }, --palette.highlight_med },
 		-- VisualNOS = {},
 		WarningMsg = { fg = groups.warn, bold = styles.bold },
 		-- Whitespace = {},
@@ -893,7 +893,7 @@ local function set_highlights()
     vim.cmd("highlight StatusLine guifg=#000000")
     vim.cmd("highlight LineNr guifg=#bdb395")
     vim.cmd("highlight Nontext guifg=#bdb395")
-    vim.cmd("highlight Visual guifg=#333333 guibg=#82aaa3")
+    vim.cmd("highlight Visual guifg=#FFFFFF guibg=#0000FF")
     vim.cmd("highlight Normal guibg=#031c1f")
 end
 
